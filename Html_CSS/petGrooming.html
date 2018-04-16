@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--Created by Group 6 Project Team --->
+<!--Pet Grooming Page-->
+<html>
+	<head>
+	   <title>PawPups Animal Care And Adoptions | Warrensburg</title>
+		<meta charset="utf-8">
+		<meta name="language" content="english">
+		<link rel ="stylesheet" href="group6ProjectStyles.css" text="text/css"/>
+		<link rel ="stylesheet" href="Nav_List.css" text="text/css"/>
+	</head>
+	
+	<!-- Navigations in home page-->
+	<body style="text-align:center">
+	<h1>PAWPUPS</h1> <br/>  <img id="logo" src="C://IEProject/Images/logo.png" width="179" height="115" alt="PawPups Logo" > <br/>
+	<nav>
+		<ul>
+			<li><a href="home.html" style="color:#FF3352">Home</a></li>
+			<li><a href="#" style="color:#FF3352">Pet Grooming</a></li>
+			<li><a href="#" style="color:#FF3352">Pet Wellness</a></li>
+		<li class="dropdown"><a class="dropbtn" href="#" style="color:#FF3352">Adoption</a>
+					<div class="dropdown-content">
+					   <a href="theShopStop.php?productType=1">Breed Information</a>  
+					   <a href="theShopStop.php?productType=2">Find a dog</a>
+					   <a href="theShopStop.php?productType=3">Dog Stories</a>
+					   <a href="theShopStop.php?productType=5">FAQ's</a>
+				    </div>
+			</li>
+			<li><a href="#" style="color:#FF3352">Events</a></li>
+			<li><a href="#" style="color:#FF3352">About US</a></li>
+        </ul>
+	</nav>
+	<!-- Pet Grooming page image-->
+	<div id="main" style="width:100%; height:70%;">
+		 <img src="C://IEProject/Images/dog_grooming.jpg" width="100%" height="70%"/>
+	  </div>
+	
+	<!--Pet Grooming List-->
+	
+	   <div class="GroomingNav" id="ScrollHere" name="ScrollHere"><p align="center">Click on the Images for Grooming Services!<p></div>
+	<div class="PetGrooming">
+	   <div class="textOverImage" float="left" data-text="Bath Packages" 
+	        style="background-image:url('C://IEProject/Images/pet_bath.jpg'); height:200px; width:270px; font-size:2.2em; cursor:pointer;" 
+	        onclick="location.href='petGrooming_bathPackages.html';">
+	   </div>
+	
+	<div class="textOverImage" float="middle" data-text="Hair Cut Packages"
+            style="background-image:url('C://IEProject/Images/pet_haircut.jpg'); height:200px; width:270px; font-size:2em; cursor:pointer;"
+		    onclick="location.href='petGrooming_haircutPackages.html';">
+	   </div>
+	
+	
+	   <div class="textOverImage" float="right" data-text="Pet Care Tips and Videos"
+            style="background-image:url('C://IEProject/Images/pet_care.jpg'); height:200px; width:270px; font-size:2em; cursor:pointer;"
+		    onclick="location.href='petGrooming_petCarePackages.html'">
+	   </div>
+	 </div>
+	</body>
+</html>
