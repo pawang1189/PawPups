@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--Created by Group 6 Project Team --->
-<!--Pet Grooming Page-->
+<!--Pet Grooming Bath Packages Page-->
 <html>
 	<head>
 	   <title>PawPups Animal Care And Adoptions | Warrensburg</title>
@@ -11,7 +11,7 @@
 		 <script text="text/javascript" src="petGrooming.js"></script>
 	</head>
 	
-	<body background="C://IEProject/Images/dog_background.jpg" style="background-size:1550px 920px; background-repeat:repeat;">
+	<body background="C://IEProject/Images/grooming1_background.jpg" style="background-size:1550px 920px; background-repeat:repeat;">
 	
 	<div style="border:1px;">
 	<!--Bath Packages Content-->
@@ -25,27 +25,83 @@
 			    <h2 id="h2Header">Bath Packages <style="align:center"></h2>
 				</div>
 	  </div>
+	  
+	 <div class="Grooming"><p align="center"> <p > <strong> We offer only the finest grooming services. Schedule your appointment now and get your dog pampered with our special in-house grooming packages. </strong> </p> </div>
 	 <div class="panel-body"> 
-              <!-- Full-Service -->
+              <!-- Dog bath- Package 1 -->
               <ul class="row">
                 <li class="col-4 padding-sm" style="list-style:none;"> <img src="C://IEProject/Images/bathPackageImage1.jpg" alt="Bath Package 1" class="circle-border img-responsive">
-                  <p><strong>Full-Service Bath</strong><br>
-                    Includes bath with natural shampoo, blow dry, 15-minute brush-out, ear cleaning, nail trim, gland expression &amp; scented spritz.</p>
-                </li>
-				
+                  <h3><strong>Dog Bath</strong></h3>
+					<p>"Our dog bath package includes a full-wash to make your dog look fresh and healthy. The package includes bath with"</p>
+					   <ul> 
+						<li> Natural shampoo </li>
+						<li> Ear cleaning </li>
+						<li> Blow dry </li>
+						<li> Nail trim </li>
+						<li> Gland expression &amp; conditioner with scented spritz. </li>				
+					   </ul>
+				</li>
+				<!-- Dog Spa bath- Package 2 -->
                 <li class="col-4 padding-sm" style="list-style:none;"> <img src="C://IEProject/Images/bathPackageImage2.jpg" alt="Bath Package 2" class="circle-border img-responsive">
-                  <p><strong>Full-Service Bath with Haircut*</strong><br>
-                    Includes bath with natural shampoo, blow dry, 15-minute brush-out, ear cleaning, nail trim, gland expression &amp; scented spritz. PLUS a cut and style to breed-specific standard or shave down.<br>
-                    <span class="caption">*For a custom cut or style, extra charges may apply.</span></p>
-                </li>
-				
+				 <h3><strong>Dog Spa Bath</strong></h3>
+                  <p>"Our special dog spa package includes dog bath services plus spa. It includes bath with" </p>
+					<ul> 
+						<li> Natural shampoo </li>
+						<li> Ear cleaning </li>
+						<li> Blow dry </li>
+						<li> Nail trim </li>
+						<li> Gland expression &amp; conditioner with scented spritz. </li>	
+						<li> Conditioner with scented spritz plus sanitary trim </li>
+						<li> Therapeutic oil massage </li>						
+					</ul>
+				</li>
+				 
+				 <!-- Dog Full Groom - Package 3 -->
+				 
                 <li class="col-4 padding-sm" style="list-style:none;"> <img src="C://IEProject/Images/bathPackageImage3.jpg" alt="Bath Package 3" class="circle-border img-responsive">
-                  <p><strong>Express Services</strong><br>
-                    Choose a Full-service bath or bath with haircut with Express Service for no kennel time. Perfect for senior pets & puppies. Must purchase with full service bath or bath with haircut.</p>
-                  <!-- <a href="">Schedule Appointment Now</a> --> 
-                </li>
-              </ul>
-      </div>
+				 <h3><strong>Dog Full Groom</strong></h3>
+                  <p>"Customize bath package with Dog bath and Dog Spa bath package. This package is specially designed for pampering dogs and to make them spoilt for choice."</p>
+                    <ul> 
+						<li> Natural shampoo </li>
+						<li> Ear cleaning </li>
+						<li> Blow dry </li>
+						<li> Nail trim </li>
+						<li> Gland expression &amp; conditioner with scented spritz. </li>	
+						<p> OR </p>
+						<li> Conditioner with scented spritz plus sanitary trim </li>
+						<li> Therapeutic oil massage </li>						
+					</ul>
+				</li>
+			 <!-- Schedule Appointment Now--> 
+			 
+			  <h2 id="h2Header">Schedule Appointment<style="align:center"></h2>
+			  <div class="scheduleForm" style="text-align:center;width=100%">
+				<form id="schedule_form" style="border: 7px solid #E6E6E6; ">
+				
+				<label style="width:450px;display:inline-block">
+				  Owner Name:
+				  <input type="text" name="ownerName" class="right" style="width:250px; padding-left: 30px;"></label>
+				  <br><br>
+				  Pet Name:
+				  <input type="text" name="petName" class="right" style="width:250px; padding-left: 30px;">
+				  <br><br>
+				  Pet Breed:
+				  <input type="text" name="petBreed" class="right" style="width:250px; padding-left: 30px;">
+				  <br><br>
+				   Phone:
+				  <input type="text" name="phone" class="right" style="width:250px; padding-left: 30px;">
+				  <br><br>
+				   Email:
+				  <input type="text" name="email" class="right" style="width:250px; padding-left: 30px;">
+				  <br><br>
+
+				  Service:
+				  <input type="checkbox" name="service" value="Dog Bath"> Dog Bath<br>
+				  <input type="checkbox" name="service" value="Dog Spa Bath"> Dog Spa Bath<br>
+				  <input type="checkbox" name="service" value="Dog Full Groom">Dog Full Groom<br> <br>
+				  <input type="submit" value="Submit" style="width:250px; padding-left: 30px;">
+				</form>       
+				</div>
 
 	</body>
 	
